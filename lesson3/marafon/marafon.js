@@ -1,0 +1,12 @@
+function numbers(number, number2) {
+    if (number < number2){
+        console.log("Первый меньше второго")
+    } else {
+        console.log("Второй меньше первого")
+    }
+}
+
+const number = 1
+const number2 = 0
+
+numbers(number, number2)
