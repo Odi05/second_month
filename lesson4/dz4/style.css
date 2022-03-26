@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+.main {
+    display: flex;
+    background: black;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    position: absolute;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 140px;
+    margin-bottom: 20px;
+}
+span {
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.btn_cont {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+button {
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0.5rem 2rem;
+    background: #f3166e;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius:5px;
+}
+button:hover {
+    background: aliceblue;
+    transition: all 0.2s ease-in-out;
+    color: #f3166e;
+}
+.heart-shape {
+    background: #f9e1ea none repeat scroll 0 0;
+    border-radius: 50%;
+    display: block;
+    height: 500px;
+    margin: 5em auto 0;
+    text-align: center;
+    width: 500px;
+}
+.heart-shape:before{
+    color: #f3166e;
+    content: "❤";
+    font-size: 20em;
+    position: relative;
+}
